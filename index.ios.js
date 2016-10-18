@@ -11,14 +11,17 @@ import {
   Text,
   View
 } from 'react-native';
-
+// NOTE: REF http://blog.csdn.net/p106786860/article/details/51126728
 export default class RNPanResponder extends Component {
+
   constructor(props){
     super(props)
     this.state = {
       bg: 'white',
       bg2: 'white'
+      bg2: 'white'
     }
+
   }
 
   componentWillMount(){
